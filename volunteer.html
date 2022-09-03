@@ -46,24 +46,29 @@
             margin-left: 2em;
             margin-right: 2em;
         }
-        .topnav{
-            background-color: #457567;
-;
-            overflow: hidden;
-        }
-        .topnav a {
-            float: center;
-            color: #f2f2f2;
+        nav {
             text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
         }
 
-            /* Change the color of links on hover */
-        .topnav a:hover {
-            background-color: #ddd;
-            color: black;
+        ul {
+            list-style-type: none;
+            background-color: #539e8a;
+            overflow: hidden;
+            padding: 1em;
+        }
+
+        li {
+            display: inline;
+        }
+
+            li a {
+                text-decoration: none;
+                color: #f6c5c0;
+                padding: 1em;
+            }
+
+                li a:hover {
+                    background-color: #457567;
         }
         .limit{
             border-style:dashed;
@@ -72,7 +77,8 @@
         }
         .pic {
             float: right;
-            min-width:48%;
+            min-width:50%;
+            margin-top:20%
         }
 
     </style>
@@ -89,13 +95,15 @@
                     <h1>Econasia</h1>
             </div>
         </header>
-        <div class="topnav">
-            <a href="HTMLPage1.html">Home</a>
-            <a href="volunteer.html">Volunteer</a>
-            <a href="#about">Resources</a>
-            <a href="#about">About Us</a>
-            <a href="#about">FAQ</a>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="HTMLPage1.html">Home</a>
+                <li><a class="active" href="volunteer.html">Volunteer</a></li>
+                <li><a href="#about">Resources</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#about">FAQ</a></li>
+            </ul>
+        </nav>
         
         <!-- navigation bar -->
 	  <header>
