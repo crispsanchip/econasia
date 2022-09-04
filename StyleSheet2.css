@@ -73,8 +73,16 @@ li {
 }
 .not_ocean_volunteer{
     float:right;
+    width: 100%;
+}
+.not_ocean{
+    float:right;
+    border: dashed;
+    width:50%
 }
 .limit{
     width: 50%;
-    border:dashed;
+}
+.pic{
+    width: 100%
 }
