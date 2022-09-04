@@ -146,6 +146,7 @@ button:hover{
 }
 .toshani_img{
     width: 34%;
+    background-image: url(toshani.jpg);
     background-size: cover;
     background-color: #000000;
     border-radius: 100%;
@@ -170,6 +171,10 @@ button:hover{
 .mission{
     text-align:center;
 }
-.contact{
+.contact_info{
     background-color: #d2ffdc;
+}
+.contact_info_info{
+    font-size: 25px;
+    font-family: cursive;
 }
