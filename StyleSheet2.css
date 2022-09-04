@@ -76,13 +76,97 @@ li {
 }
 .not_ocean{
     float:right;
-    border: dashed;
-    width:50%
+    border:solid;
+    border-color:#1232aa;
+    padding:0.1%;
+    width:48%;
 }
 .limit{
-    width: 49%;
-    border:dashed;
+    width: 48%;
+    border:solid;
+    border-color:#1232aa;
+    padding:0.1%;
 }
 .pic{
     float:right;
+}
+.pic_link{
+    font-size:xx-small
+}
+button{
+    background-color: #457567;
+    color:#ffffff;
+    width:33%;
+    height: 10%;
+    align-content:center;
+    border-color:#effcf2;
+}
+
+button:hover{
+    background-color: #000000;
+    color: white;
+}
+.about{
+    float:left;
+    z-index:5;
+}
+.contact{
+    float:center;
+
+}
+.questions{
+    float:right;
+    width:34%;
+}
+.pic_size_about{
+    float:left;
+    height:100%;
+    width:33%;
+}
+.pic_size_contact{
+    float:left;
+    width:33%;
+    height:100%;
+}
+.pic_size_questions{
+    float:left;
+    width:34%;
+    height:100%;
+}
+.sanchi_img{
+    width:33%;
+    background-image: url(sanchi.jpg);
+    background-size: cover;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-flex;
+    padding-top: 33%;
+    float:left;
+    align-content:center;
+}
+.toshani_img{
+    width: 34%;
+    background-size: cover;
+    background-color: #000000;
+    border-radius: 100%;
+    display: inline-flex;
+    padding-top: 34%;
+    float: center;
+    align-self: center;
+}
+
+.simran_img{
+    width:33%;
+    background-image: url(simran.jpg);
+    background-size:cover;
+    background-color: #000000;
+    border-radius: 50%;
+    display:initial;
+    padding-top: 33%;
+    float:right;
+    align-content:center;
+}
+
+.mission{
+    text-align:center;
 }
