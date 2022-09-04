@@ -69,10 +69,14 @@ li {
             background-color: #457567;
         }
 .volunteer{
-    float: left;
+    float:left;
+    padding:0.1%;
+    width:48%;
 }
 .not_ocean_volunteer{
     float:right;
+    padding:0.1%;
+    width:48%;
 }
 .not_ocean{
     float:right;
@@ -82,17 +86,22 @@ li {
     width:48%;
 }
 .limit{
+    float:left;
     width: 48%;
     border:solid;
     border-color:#457567;
     padding:0.1%;
 }
+/*
 .pic{
-    float:left;
+    display:flex;
 }
+*/
 .pic_link{
     font-size:xx-small
 }
+
+/*
 button{
     background-color: #457567;
     color:#ffffff;
@@ -106,13 +115,13 @@ button:hover{
     background-color: #000000;
     color: white;
 }
+
 .about{
     float:left;
     z-index:5;
 }
 .contact{
     float:center;
-
 }
 .questions{
     float:right;
@@ -133,7 +142,8 @@ button:hover{
     width:34%;
     height:100%;
 }
-/*
+
+
 .sanchi_img{
     width:30%;
     background-image: url(sanchi.jpg);
