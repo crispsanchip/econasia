@@ -69,5 +69,8 @@ li {
             background-color: #457567;
         }
 .volunteer{
-    float: right;
+    float: left;
+}
+.not_ocean_volunteer{
+    float:right;
 }
