@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-color: #effcf2
 }
 
@@ -47,7 +47,7 @@ p {
 
 /*organization information*/
 .article-box {
-    width: 275px;
+    width: 266px;
     height: 375px;
     margin: 1em;
     /*display: flex;*/
