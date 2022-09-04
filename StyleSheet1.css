@@ -2,13 +2,29 @@ body {
     background-color: #effcf2
 }
 
-p {
+.information {
     color: #000000;
-    font-family: "Times New Roman";
-    font-size: 15px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
     margin: 2em;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
+.link {
+  color: #f6c5c0;
+}
+
+.extra-info{
+   text-align: center;
+    width: 10em;
+    padding: 1em;
+    text-decoration: none;
+    color: #f6c5c0;
+  background-color: #539e8a;
+  margin: auto;
+}
 
 /*header*/
 
@@ -34,28 +50,24 @@ header {
 
 
 
-
-p {
-    color: #000000;
-    font-family: "Times New Roman";
-    font-size: 15px;
-    margin-left: 2em;
-    margin-right: 2em;
-}
-
-
-
 /*organization information*/
-.article-box {
+
+  .article-list {
+    clear:both;
+    text-align: center;
+  }
+      
+  .article-box {
     width: 266px;
     height: 375px;
     margin: 1em;
     /*display: flex;*/
     border: 5px solid #539e8a;
     background-color: white;
-    float: left;
+    display: inline-block;
     /*box-shadow: rgba(50, 50, 50, 0.74902) 10px 5px 8px -2px;*/
 }
+
 
     .article-box:hover {
         opacity: 0.6;
@@ -76,6 +88,7 @@ p {
 .article-box-text {
     margin-left: -10px;
     text-align: center;
+    font-size: 15px;
     height: 250px;
     width: 275px;
     opacity: 0.6;
@@ -88,6 +101,13 @@ p {
     }
 
 
+.buttons { 
+  color: #539e8a; 
+}
+
+.buttons:hover { 
+  color: ##457567; 
+}
 
 /*navigation bar*/
 nav {
@@ -114,3 +134,7 @@ li {
         li a:hover {
             background-color: #457567;
         }
+}
+
+
+
